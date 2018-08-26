@@ -1,4 +1,5 @@
 import React from 'react';
+import registerServiceWorker from './registerServiceWorker';
 import { render } from 'react-dom';
 import 'tachyons';
 import App from './containers/App';
@@ -25,3 +26,4 @@ const AppContainer = (
 );
 
 render(AppContainer, document.getElementById('root'));
+registerServiceWorker();
