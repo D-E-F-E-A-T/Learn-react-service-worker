@@ -2,6 +2,7 @@
 	"name": "robo_projects",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://arausly.github.io/Learn-react-service-worker",
 	"dependencies": {
 		"gh-pages": "^1.2.0",
 		"react": "^16.4.1",

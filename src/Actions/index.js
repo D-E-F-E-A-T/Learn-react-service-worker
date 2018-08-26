@@ -9,7 +9,7 @@ export const changeSearchField = text => {
 
 export const robotRequest = () => dispatch => {
 	dispatch({ type: ROBOT_REQUEST_PENDING });
-	fetch('https:jsonplaceholder.typicode.com/users')
+	fetch('https://jsonplaceholder.typicode.com/users')
 		.then(res => res.json())
 		.then(robots => dispatch({ type: ROBOT_REQUEST_SUCCESS, payload: robots }))
 		.catch(err => dispatch({ type: ROBOT_REQUEST_FAILED, payload: err.message }));
